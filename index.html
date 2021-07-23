@@ -21,52 +21,167 @@
 		<header>
 
 			<!-- NavBar Start -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#">Navbar</a>
+			<nav class="navbar navbar-expand-lg navbar-light">
+
+				<div class="container">
+
+					<a class="navbar-brand" href="#">
+						<img src="assets/images/logo.png" alt="Brand Logo">
+					</a>
+
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
+
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+						<form class="d-flex mx-auto">
+							<div class="container-fluid">
+								<input class="form-control rounded-pill" type="search" placeholder="Search"
+									aria-label="Search">
+								<button class="btn btn-outline-success d-none" type="submit">Search</button>
+							</div>
+						</form>
+
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Home</a>
+								<a class="nav-link active" aria-current="page" href="#home">Home</a>
 							</li>
+
 							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
+								<a class="nav-link" href="#categories">Categories</a>
 							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-									data-bs-toggle="dropdown" aria-expanded="false">
-									Dropdown
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
-								</ul>
-							</li>
+
 							<li class="nav-item">
-								<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+								<a class="nav-link" href="#shoes">Shoes</a>
 							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#backpack">Backpack</a>
+							</li>
+
 						</ul>
 
-						<form class="d-flex">
-							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success" type="submit">Search</button>
-						</form>
-						
 					</div>
 				</div>
 			</nav><!-- NavBar END -->
 
+			<!-- Hero Slider Start -->
+			<div class="container">
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+					<div class="carousel-inner my-5">
+
+						<!-- Banner Item-1 -->
+						<div class="carousel-item active bg-info py-5 px-4 rounded">
+							<div class="row">
+								<div class="banner-details col-lg-7">
+									<h1>Mi LED TV 4A PRO 32</h1>
+									<p>The quick, brown fox jumps over a lazy dog. DJs flock by when<br>MTV ax quiz
+										prog. Junk
+										MTV quiz graced by fox whelps.<br>Bawds jog, flick quartz, vex nymphs. Waltz,
+										bad
+										nymph, for quick jigs vex!</p>
+									<h2>&dollar;1289</h2>
+									<button class="btn btn-danger">Buy Now</button>
+								</div>
+
+								<div class="banner-img col-lg-5">
+									<img src="assets/images/banner-images/tv.png" class="d-block w-75" alt="TV">
+								</div>
+							</div>
+						</div>
+
+						<!-- Banner Item-2 -->
+						<div class="carousel-item  bg-info py-5 px-4 rounded">
+							<div class="row">
+								<div class="banner-details col-lg-7">
+									<h1>Mi Headphone</h1>
+									<p>The quick, brown fox jumps over a lazy dog. DJs flock by when<br>MTV ax quiz
+										prog. Junk
+										MTV quiz graced by fox whelps.<br>Bawds jog, flick quartz, vex nymphs. Waltz,
+										bad
+										nymph, for quick jigs vex!</p>
+									<h2>&dollar;1289</h2>
+									<button class="btn btn-danger">Buy Now</button>
+								</div>
+
+								<div class="banner-img col-lg-5">
+									<img src="assets/images/banner-images/headphone.png" class="d-block w-75" alt="TV">
+								</div>
+							</div>
+						</div>
+
+						<!-- Banner Item-3 -->
+						<div class="carousel-item  bg-info py-5 px-4 rounded">
+							<div class="row">
+								<div class="banner-details col-lg-7">
+									<h1>Mi LED XBox</h1>
+									<p>The quick, brown fox jumps over a lazy dog. DJs flock by when<br>MTV ax quiz
+										prog. Junk
+										MTV quiz graced by fox whelps.<br>Bawds jog, flick quartz, vex nymphs. Waltz,
+										bad
+										nymph, for quick jigs vex!</p>
+									<h2>&dollar;1289</h2>
+									<button class="btn btn-danger">Buy Now</button>
+								</div>
+
+								<div class="banner-img col-lg-5">
+									<img src="assets/images/banner-images/xbox.png" class="d-block w-75" alt="TV">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
 		</header>
 		<!-- Header Section END -->
+
+		<main>
+			<div class="container">
+
+				<!-- Categories Start -->
+				<section id="categories">
+					<h2 class="my-5">Categories</h2>
+
+					<div class="row d-flex justify-content-between">
+
+						<!-- Category Box-1 -->
+						<div
+							class="category-box col-lg-3 d-flex justify-content-around align-items-center bg-warning py-1 rounded">
+							<h1 class="text-white">Watch</h1>
+							<img src="assets/images/categories/watch.png" class="w-25" alt="">
+						</div>
+
+						<!-- Category Box-2 -->
+						<div
+							class="category-box col-lg-3 d-flex justify-content-around align-items-center bg-success py-1 rounded">
+							<h1 class="text-white">Bag</h1>
+							<img src="assets/images/categories/bag.png" class="w-25" alt="">
+						</div>
+
+						<!-- Category Box-3 -->
+						<div
+							class="category-box col-lg-3 d-flex justify-content-around align-items-center bg-primary py-1 rounded">
+							<h1 class="text-white">Shoes</h1>
+							<img src="assets/images/categories/shoes.png" class="w-25" alt="">
+						</div>
+
+				</section>
+				<!-- Categories END -->
+			</div>
+
+			<div class="bg-light my-5 py-5">
+				<div class="container">
+
+				</div>
+			</div>
+		</main>
 
 
 		<!-- Bootstrap CDN JS File -->
