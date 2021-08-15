@@ -85,7 +85,8 @@
 										bad
 										nymph, for quick jigs vex!</p>
 									<h2>&dollar;1289</h2>
-									<button class="btn btn-danger mt-3">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+									<button class="btn btn-danger mt-3 buy-now-btn">Buy Now <i
+											class="fas fa-arrow-right px-2"></i></button>
 								</div>
 
 								<div class="banner-img col-lg-5">
@@ -105,7 +106,8 @@
 										bad
 										nymph, for quick jigs vex!</p>
 									<h2>&dollar;1289</h2>
-									<button class="btn btn-danger mt-3">Buy Now <i class="fas fa-arrow-right  px-2"></i></button>
+									<button class="btn btn-danger mt-3 buy-now-btn">Buy Now <i
+											class="fas fa-arrow-right  px-2"></i></button>
 								</div>
 
 								<div class="banner-img col-lg-5">
@@ -124,7 +126,8 @@
 										nymphs. Waltz,
 										bad nymph, for quick jigs vex!</p>
 									<h2>&dollar;1289</h2>
-									<button class="btn btn-danger mt-3">Buy Now <i class="fas fa-arrow-right  px-2"></i></button>
+									<button class="btn btn-danger mt-3 buy-now-btn">Buy Now <i
+											class="fas fa-arrow-right  px-2"></i></button>
 								</div>
 
 								<div class="banner-img col-lg-5">
@@ -194,21 +197,21 @@
 						<div class="row row-cols-1 row-cols-md-3 g-4">
 
 							<!-- Shoes Card-1 -->
-							<div class="col-lg-4 col-md-6 col-sm-12">
+							<div onclick="clickConsole()" class="col-lg-4 col-md-6 col-sm-12">
 								<div class="card text-center h-100 pb-4">
-									<img src="assets/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+									<img id="changeable-img" src="assets/images/shoes/shoe-1.png" class="card-img-top" alt="...">
 
 									<div class="card-body">
 										<h4 class="card-title fw-bold">Reebok Dart Men’s Shoes</h4>
 										<p class="card-text text-secondary">This is a wider card with supporting text
-											below
-											as a natural additional content.</p>
+											below as a natural additional content.</p>
 									</div>
 
 									<h4>&dollar; 1289</h4>
 
 									<div class="d-grid gap-2 d-md-inline-block d-sm-inline-block  my-2">
-										<a href="#" class="btn btn-dark text-uppercase"><small>Buy Now <i class="fas fa-arrow-right  px-2"></i></small></a>
+										<a href="#" class="btn btn-dark text-uppercase buy-now-btn"><small>Buy Now <i
+													class="fas fa-arrow-right  px-2"></i></small></a>
 									</div>
 
 								</div>
@@ -228,7 +231,8 @@
 									<h4>&dollar; 799</h4>
 
 									<div class="d-grid gap-2 d-md-inline-block d-sm-inline-block my-2">
-										<a href="#" class="btn btn-dark text-uppercase"><small>Buy Now <i class="fas fa-arrow-right  px-2"></i></small></a>
+										<a href="#" class="btn btn-dark text-uppercase buy-now-btn"><small>Buy Now <i
+													class="fas fa-arrow-right  px-2"></i></small></a>
 									</div>
 
 								</div>
@@ -248,7 +252,8 @@
 									<h4>&dollar; 699</h4>
 
 									<div class="d-grid gap-2 d-md-inline-block d-sm-inline-block  my-2">
-										<a href="#" class="btn btn-dark text-uppercase"><small>Buy Now <i class="fas fa-arrow-right  px-2"></i></small></a>
+										<a href="#" class="btn btn-dark text-uppercase buy-now-btn"><small>Buy Now <i
+													class="fas fa-arrow-right  px-2"></i></small></a>
 									</div>
 
 								</div>
@@ -260,12 +265,12 @@
 			<!-- Shoes Section END -->
 
 			<!-- Backpack Section Start -->
-			<section id="backpack" class="pt-4 bg-light">
-				<div class="bg-light py-5">
+			<section id="backpack" class="pt-4">
+				<div class="py-5">
 					<div class="container">
 
 						<div class="section-top d-flex justify-content-between">
-							<div class="section-title mb-3">
+							<div id="backpacks" class="section-title mb-3">
 								<h2>Backpack</h2>
 							</div>
 
@@ -292,7 +297,8 @@
 									<h4>&dollar; 1289</h4>
 
 									<div class="d-grid gap-2 d-md-inline-block d-sm-inline-block  my-2">
-										<a href="#" class="btn btn-dark text-uppercase"><small>Buy Now <i class="fas fa-arrow-right  px-2"></i></small></a>
+										<a href="#" class="btn btn-dark text-uppercase buy-now-btn"><small>Buy Now <i
+													class="fas fa-arrow-right  px-2"></i></small></a>
 									</div>
 
 								</div>
@@ -312,7 +318,8 @@
 									<h4>&dollar; 799</h4>
 
 									<div class="d-grid gap-2 d-md-inline-block d-sm-inline-block my-2">
-										<a href="#" class="btn btn-dark text-uppercase"><small>Buy Now <i class="fas fa-arrow-right  px-2"></i></small></a>
+										<a href="#" class="btn btn-dark text-uppercase buy-now-btn"><small>Buy Now <i
+													class="fas fa-arrow-right  px-2"></i></small></a>
 									</div>
 
 								</div>
@@ -332,7 +339,8 @@
 									<h4>&dollar; 699</h4>
 
 									<div class="d-grid gap-2 d-md-inline-block d-sm-inline-block  my-2">
-										<a href="#" class="btn btn-dark text-uppercase"><small>Buy Now <i class="fas fa-arrow-right  px-2"></i></small></a>
+										<a href="#" class="btn btn-dark text-uppercase buy-now-btn"><small>Buy Now <i
+													class="fas fa-arrow-right  px-2"></i></small></a>
 									</div>
 
 								</div>
@@ -345,7 +353,7 @@
 
 			<!-- Newsletter Section Start -->
 			<section id="newsletter" class="py4 bg-white">
-				<div class="container my-theme-color-bg rounded">
+				<div id="newsletter-2" class="container my-theme-color-bg rounded">
 
 					<div class="py-5 my-5">
 
@@ -356,10 +364,10 @@
 
 						<form class="row d-flex justify-content-center">
 							<div class="col-4">
-								<input type="text" placeholder="Enter your email" class="form-control">
+								<input id="nl-input" type="text" placeholder="Enter your email" class="form-control">
 							</div>
 							<div class="col-auto text-start">
-								<button type="submit" class="btn btn-danger">Send</button>
+								<button id="nl-btn" type="submit" class="btn btn-danger" disabled="true">Send</button>
 							</div>
 						</form>
 					</div>
@@ -372,6 +380,7 @@
 			<p class="text-center fw-bold fs-6 my-3">Copyright &copy; Panda-Commerce &bullet; 2021</p>
 		</footer>
 
+
 		<!-- Bootstrap CDN JS File -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -379,6 +388,9 @@
 
 		<!-- FontAwesome CDN Link -->
 		<script src="https://kit.fontawesome.com/6a7a03e364.js" crossorigin="anonymous"></script>
+		<!-- Main JS File -->
+
+		<script src="assets/js/script.js"></script>
 	</body>
 
 </html>
